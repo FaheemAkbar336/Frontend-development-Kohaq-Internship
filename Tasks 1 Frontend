@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Kohaq Education</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+    header { background: #3498db; color: white; padding: 15px; text-align: center; }
+    nav a { color: white; margin: 0 10px; text-decoration: none; }
+    section { padding: 20px; }
+    .btn { background: #3498db; color: white; padding: 10px 20px; text-decoration: none; display: inline-block; }
+    footer { background: #333; color: white; text-align: center; padding: 10px; }
+    @media (max-width: 600px) {
+      nav { display: block; }
+      nav a { display: block; margin: 5px 0; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Kohaq Education</h1>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#schedule">Schedule</a>
+    <a href="#courses">Courses</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section id="about">
+  <h2>About Us</h2>
+  <p>Kohaq Education helps students learn skills for the future through quality courses and training.</p>
+</section>
+
+<section id="schedule" style="background:#f4f4f4;">
+  <h2>Schedule</h2>
+  <p>Monday - Wednesday: 10 AM - 12 PM</p>
+  <p>Thursday: 2 PM - 4 PM</p>
+  <p>Saturday: 9 AM - 1 PM</p>
+</section>
+
+<section id="courses">
+  <h2>Courses</h2>
+  <ul>
+    <li>Web Development</li>
+    <li>Data Science</li>
+    <li>Digital Marketing</li>
+  </ul>
+</section>
+
+<section id="register" style="background:#f4f4f4;">
+  <h2>Register</h2>
+  <form>
+    <input type="text" placeholder="Your Name"><br><br>
+    <input type="email" placeholder="Your Email"><br><br>
+    <button class="btn">Submit</button>
+  </form>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p>Email: info@kohaqeducation.com</p>
+  <p>Phone: +1 (555) 123-4567</p>
+</section>
+
+<footer>
+  <p>&copy; 2025 Kohaq Education</p>
+</footer>
+
+</body>
+</html>
+
+    

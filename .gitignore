@@ -1,0 +1,60 @@
+# Node modules
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Build directories
+dist/
+build/
+.next/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Dependency directories
+package-lock.json
+yarn.lock
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Logs
+logs/
+*.log
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# OS generated files
+Thumbs.db
+.AppleDouble
+.LSOverride
+
+# Development
+.cache/
+.parcel-cache/
+dist/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Temporary files
+tmp/
+temp/
